@@ -1,3 +1,4 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "@repo/typescript-config/vite.json",
+  "include": ["src"]
 }
