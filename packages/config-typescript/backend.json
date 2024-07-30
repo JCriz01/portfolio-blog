@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "module": "commonjs",
+    "module": "CommonJS",
     "lib": ["ES2020"],
     "allowJs": true,
     "checkJs": true,
@@ -13,9 +13,9 @@
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
     "resolveJsonModule": true,
-    "noEmit": true,
+    "noEmit": false,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedParameters": false,
     "noImplicitReturns": true
   },
   "exclude": ["node_modules"]
