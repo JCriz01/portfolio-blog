@@ -19,6 +19,7 @@ model User {
   updatedAt DateTime  @updatedAt
   name      String
   username  String
+  password String
   posts     Post[]
   comments  Comment[]
 }
